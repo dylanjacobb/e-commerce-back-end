@@ -38,8 +38,8 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        // FIXME: this should be correct
-        category: 'id',
+        model: 'category',
+        key: 'id',
       },
     }
     
@@ -47,7 +47,7 @@ Product.init(
   {
     sequelize,
     timestamps: false,
-    freezeTableName: true,
+    // freezeTableName: true,
     underscored: true,
     modelName: 'product',
   }

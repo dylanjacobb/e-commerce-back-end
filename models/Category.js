@@ -2,11 +2,10 @@ const { Model, DataTypes, INTEGER } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
-class Category extends Model {}
+class Category extends Model { }
 
 Category.init(
   {
-    // TODO: define columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -21,7 +20,7 @@ Category.init(
   {
     sequelize,
     timestamps: false,
-    freezeTableName: true,
+    // freezeTableName: true,
     underscored: true,
     modelName: 'category',
   }
