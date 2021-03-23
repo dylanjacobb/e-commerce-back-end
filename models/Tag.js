@@ -20,7 +20,7 @@ Tag.init(
   {
     sequelize,
     timestamps: false,
-    // freezeTableName: true,
+    freezeTableName: true,
     underscored: true,
     modelName: 'tag',
   }

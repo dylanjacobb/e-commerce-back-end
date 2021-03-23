@@ -64,7 +64,6 @@ router.post('/', (req, res) => {
 });
 
 // update product
-// FIXME: is this pre done?
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
