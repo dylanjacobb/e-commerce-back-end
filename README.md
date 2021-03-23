@@ -27,8 +27,9 @@ Modified starter code that's able to create an application called Note Taker tha
 * WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 * THEN I am able to successfully create, update, and delete data in my database
 
+Here's a link to a video of the application: https://drive.google.com/file/d/1O4743An6JxyCIQJQFM0VHRXeufxZ5zvu/view
 
 *HEROKU LINK HERE*
 
 
-*VIDEO/GIF WALKTHROUGH HERE*
+![Alt Text](https://user-images.githubusercontent.com/75706156/112162961-ef525a00-8bc2-11eb-90f1-e0a3c12ee9af.gif)
